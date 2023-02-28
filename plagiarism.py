@@ -1,5 +1,3 @@
-#pip install -U scikit-learn
-#Make sure all the .txt files that need to be checked are in the same directory as the script
 import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
